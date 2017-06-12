@@ -294,7 +294,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 82e12f2b2073acb4b8e7c1916907ce17, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1ff4345f17b763a4dbb014aae7552257, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -310,7 +310,7 @@ Transform:
   m_GameObject: {fileID: 2066182439}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1}
-  m_LocalScale: {x: 0.025, y: 0.025, z: 1}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -327,9 +327,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 2066182443}
-  Analogico: 1
-  Velocity: 5
   gm: {fileID: 478301865}
+  speed: 3.5
+  currentRotation: 0
+  rotationSensitivity: 100
 --- !u!50 &2066182443
 Rigidbody2D:
   serializedVersion: 4
